@@ -6,5 +6,7 @@ jobs:
     steps:
       - name: step1
         run: echo "Siuuuuuuuuu - Cristiano"
-      - name: step2
-        run: echo "Jamira OO - Messi"
+      - name: this is a multi line step
+        run: |
+            echo "Neymar"
+            echo "Silva"
